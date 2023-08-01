@@ -1,0 +1,25 @@
+/* DriveList.css */
+
+.drive-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.drive-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.drive-card h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.drive-card p {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
